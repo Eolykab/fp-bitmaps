@@ -14,3 +14,6 @@ It features:
 2. Move into project directory ``cd fp-bitmaps`` and run ``stack setup``
 3. Run ``stack build``
 4. Then run ``stack exec fp-bitmaps-exe``
+## Author Information
+``Eljoenai Muninga``
+https://eolykab.co.za
