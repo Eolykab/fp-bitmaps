@@ -1,5 +1,5 @@
 # fp-bitmaps
-Creating voronoi. This project uses ``JuicyPixels`` library to load and save images. 
+Creating voronoi using Haskell Functional Programming Language. This project uses ``JuicyPixels`` library to load and save images. 
 ## Requirements
 This project requires ``stack``. You can download and install ``stack`` from https://docs.haskellstack.org/en/stable/README/
 ``stack`` is a cross-platform program for developing Haskell projects. It is aimed at Haskellers both new and experienced.
