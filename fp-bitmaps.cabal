@@ -4,16 +4,16 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: eb2930c3e37b626add6be085df6e8a8c1e96d44a74d3c38acfa9afb3a1481697
+-- hash: f525642080156e821a14d933ced3a32895b2673429d97fa7c5ccb4b735546da2
 
 name:           fp-bitmaps
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/fp-bitmaps#readme>
-homepage:       https://github.com/githubuser/fp-bitmaps#readme
-bug-reports:    https://github.com/githubuser/fp-bitmaps/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2020 Author name here
+description:    Please see the README on GitHub at <https://github.com/eolykab/fp-bitmaps#readme>
+homepage:       https://github.com/eolykab/fp-bitmaps#readme
+bug-reports:    https://github.com/eolykab/fp-bitmaps/issues
+author:         Eljoenai Muninga
+maintainer:     eolykab@yahoo.co.za
+copyright:      2020 Eljoenai Muninga
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -23,17 +23,19 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/fp-bitmaps
+  location: https://github.com/eolykab/fp-bitmaps
 
 library
   exposed-modules:
-      Lib
+      App
   other-modules:
       Paths_fp_bitmaps
   hs-source-dirs:
       src
   build-depends:
       base >=4.7 && <5
+      ,JuicyPixels
+      , random
   default-language: Haskell2010
 
 executable fp-bitmaps-exe
